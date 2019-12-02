@@ -21,6 +21,7 @@ public class UserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String error ="";
         String success ="";
+        System.out.println("success");
         try {
             //获取数据
             String username = req.getParameter("username");
